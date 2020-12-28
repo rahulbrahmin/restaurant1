@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>R.S Restaurants</title>
+<link rel="stylesheet" href="CSS/book.css">
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+</head>
+<body>
+    
+    <script>
+    
+    function lettersonly(input){
+        var regex = /[^a-z]/gi;
+        input.value=input.value.replace(regex,"");
+        
+    }
+    
+    </script>
+<header>
+      <div class="head"><br>
+         <h2>R.S Restaurants </h2> 
+      </div>
+
+         <nav>
+             <ul>
+                 <li><a href="index.html" >Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="Services.html">Services</a></li>
+                 <li><a href="Gallery.html">Gallery</a></li>
+                 <li><a href="team.html" >Our Team</a></li>
+                 <li><a href="#" class="active">Reservation</a></li>
+                 <li><a href="contact.html">Feedback</a></li>
+             </ul>
+         </nav>
+
+  </header>
+
+    <div class="container"> 
+       <div class="container-time">
+            <h2 class="heading">Time Open</h2>
+            <h3 class="heading-days">Monday-Friday</h3>
+                 <p>7am - 11am (breakfast)</p>
+                 <p>11am - 10pm (lunch/dinner)</p>
+
+                 <h3 class="heading-days">Saturday and sunday</h3>
+                 <p>9am - 1am (breakfast)</p>
+                 <p>1am - 10pm (lunch/dinner)</p>
+
+                 <hr>
+
+                <h4 class="heading-phone">Call Us: (234) 56-56-567</h4>
+        </div>
+
+       <div class="container-form">
+            <form >
+               <h2 class="heading heading-yellow">Reservation Online</h2>
+
+               <div class="form-field">
+                 <p>Your Name</p>
+                  <input type="text" placeholder="Your Name" onkeyup="lettersonly(this)" required>
+              </div>
+                
+              <div class="form-field">
+                 <p>Your email</p>
+                  <input type="email" placeholder="Your email" required>
+               </div>
+                
+               <div class="form-field">
+                  <p>Your Contact no.</p>
+                  <input type="number" placeholder="Your Contact no." required>
+               </div>
+                
+               <div class="form-field">
+                 <p>Date</p>
+                 <input type="date" required>
+               </div>
+                
+               <div class="form-field">
+                 <p>Time</p>
+                 <input type="time" required>
+               </div>
+                
+               <div class="form-field">
+                  <p>How many people?</p>
+                  <select name="select" id="#">
+                    <option value="1">1 person</option>
+                    <option value="2">2 persons</option>
+                    <option value="3">3 persosn</option>
+                    <option value="4">4 persons</option>
+                    <option value="5">5 persons</option>
+                    <option value="5+">5+ persons</option>
+            </select>
+    </div>
+
+         <button class="btn">Submit</button>
+   </form>
+  </div>
+</div>
+
+    <p id="roll">1903177 & 1903185</p>
+    
+</body>
+</html>
