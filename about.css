@@ -1,0 +1,79 @@
+body{
+    background-image: url(../Images/about1.jpg);
+    background-size: cover;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.head{
+    float: left;
+    color: #fff;
+    font-family: cursive;
+    color: chartreuse;
+}
+
+.head h2{
+    color: darkslategrey;
+}
+
+nav{
+    float: right;
+}
+
+li{
+    display: inline;
+    padding: 1rem;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.active{
+    color: gold;
+}
+
+
+a:hover{
+    color: #3498db;
+}
+
+.about img{
+    width: 400px;
+    float: right;
+    padding: 10px;
+    padding-top: 25px;
+    border-radius: 50%;
+    padding-right: 65px;
+    padding-left: 35px;
+}
+
+#container h2{
+    font-size: 40px;
+    padding-left: 340px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+ 
+#container p{
+    font-size: 35px;
+    padding-left: 120px;
+    font-family: cursive;
+}
+
+#roll{
+    color: aliceblue;
+    float: right;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 30px;
+}

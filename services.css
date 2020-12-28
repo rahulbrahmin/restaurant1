@@ -1,0 +1,78 @@
+body{
+    background-image: url(../Images/menu-3356827_1920.jpg);
+    background-size: cover;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.head{
+    float: left;
+    color: #fff;
+    font-family: cursive;
+    color: chartreuse;
+}
+
+.head h2{
+    color: lightyellow;
+    padding-top: 10px;
+}
+
+nav{
+    float: right;
+}
+
+li{
+    display: inline;
+    padding: 1rem;
+}
+
+li a{
+    color: lightgray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.active{
+    color: gold;
+}
+
+a:hover{
+    color: #3498db;
+}
+
+
+.service{
+    text-align: center;
+}
+
+h3{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 225px;
+    color: darkslategray;
+}
+
+.service ul li{
+    font-size: 28px;
+    font-family: sans-serif;
+    list-style: circle;
+    list-style: disc;
+    padding-left: 200px;
+    color: darkred;
+    
+}
+
+#roll{
+    color: aliceblue;
+    float: right;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 30px;
+}
